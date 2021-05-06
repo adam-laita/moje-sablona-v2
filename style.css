@@ -1,0 +1,57 @@
+/*
+	Theme Name: Moje šablona
+	Author: Králík Ušatý
+	Description: Tato šablona je takový pokusný králík, na kterém demonstrujeme základní principy fungování WordPress šablony.
+	Version: 2.0
+*/
+
+header,
+main,
+footer
+{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+
+	padding: 20px 0;
+
+	border-bottom: 1px solid #000;
+}
+
+.menu ul
+{
+	display: flex;
+
+	margin: 0;
+
+	list-style-type: none;
+}
+
+.menu a
+{
+	margin-left: 20px;
+}
+
+.menu .current_page_item a
+{
+	pointer-events: none;
+
+	color: #f00;
+}
+
+main
+{
+	padding: 30px 0 60px 0;
+}
+
+footer
+{
+	padding: 20px 0;
+
+	border-top: 1px solid #000;
+}
