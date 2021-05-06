@@ -1,4 +1,4 @@
-# Moje šablona
+# Moje šablona v2
 
 Tato WP šablona slouží pro studijní účely knihy o WordPressu nakladatelství Grada.
 
